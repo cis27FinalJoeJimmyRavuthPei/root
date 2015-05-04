@@ -41,7 +41,8 @@ class Klotski {
  
     gameBoard.setLayout(null);
  
-    /* add block soon */
+    /*  add block  soon  */
+    
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
   }
