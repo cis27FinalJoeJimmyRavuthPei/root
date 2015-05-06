@@ -102,7 +102,7 @@ class Block extends JPanel implements MouseListener, MouseMotionListener {
  
     this.setLocation(x,y);
     BlockList.rebuildOccupancy();
-    
+    Sound.move.play();
     // Win condition check
     if (this.getWidth() == Unit.W*2 && this.getHeight() == Unit.H*2
        && this.getX() == Unit.W && this.getY() == Unit.H*3) {
@@ -112,7 +112,7 @@ class Block extends JPanel implements MouseListener, MouseMotionListener {
       }
       
       
-      
+      //sound when block is moved or attempt to move block is preformed.
       Sound.winner.play();
       String message = "Congratulations ! Puzzle solved !";
       javax.swing.JOptionPane.showMessageDialog(this, message);
@@ -180,12 +180,10 @@ class Block extends JPanel implements MouseListener, MouseMotionListener {
           this.setLocation(x,y);
         }
     }
- 
     // Allow to switch between X_AXIS and Y_AXIS direction
     if (this.getX() % Unit.W==0 && this.getY() % Unit.H==0) {
       movingDirection=-1;
     }
- 
   }
  
   boolean movable(int dx, int dy) {
