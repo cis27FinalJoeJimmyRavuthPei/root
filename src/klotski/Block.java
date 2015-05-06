@@ -110,6 +110,10 @@ class Block extends JPanel implements MouseListener, MouseMotionListener {
         block.removeMouseListener(block);
         block.removeMouseMotionListener(block);
       }
+      
+      
+      
+      Sound.winner.play();
       String message = "Congratulations ! Puzzle solved !";
       javax.swing.JOptionPane.showMessageDialog(this, message);
     }
