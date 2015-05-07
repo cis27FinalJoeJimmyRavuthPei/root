@@ -4,7 +4,7 @@ import java.awt.Rectangle;
 
 class BlockList {
   static Block[] blocks = new Block[] {
-    new Block(1, 0, 2, 2, "2by2"),
+    new Block(1, 0, 2, 2, "joeWoodPc"),
     new Block(0, 0, 1, 2, "1by2"),
     new Block(0, 2, 1, 2, "1by2"),
     new Block(3, 0, 1, 2, "1by2"),
