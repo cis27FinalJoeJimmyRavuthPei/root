@@ -52,8 +52,8 @@ class Block extends JPanel implements MouseListener, MouseMotionListener {
       case "2by1":
         type = "2by1.jpg";
         break;
-      case "2by2":
-        type = "2by2.jpg";
+      case "joeWoodPc":
+        type = "joeWoodPc.jpg";
         break;
       default:
         type = null;
