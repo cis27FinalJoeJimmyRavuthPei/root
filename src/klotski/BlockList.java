@@ -5,11 +5,11 @@ import java.awt.Rectangle;
 class BlockList {
     static Block[] blocks = new Block[] {
         new Block(1, 0, 2, 2, "joeWoodPc"),
-        new Block(0, 0, 1, 2, "Ravuth1by2"),
-        new Block(0, 2, 1, 2, "Ravuth1by2"),
-        new Block(3, 0, 1, 2, "Ravuth1by2"),
-        new Block(3, 2, 1, 2, "Ravuth1by2"),
-        new Block(1, 2, 2, 1, "JimmyWood"),
+        new Block(0, 0, 1, 2, "RavuthWoodPc"),
+        new Block(0, 2, 1, 2, "RavuthWoodPc"),
+        new Block(3, 0, 1, 2, "RavuthWoodPc"),
+        new Block(3, 2, 1, 2, "RavuthWoodPc"),
+        new Block(1, 2, 2, 1, "2by1"),
         new Block(1, 3, 1, 1, "1by1"),
         new Block(2, 3, 1, 1, "1by1"),
         new Block(0, 4, 1, 1, "1by1"),
